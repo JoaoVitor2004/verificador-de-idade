@@ -12,4 +12,4 @@ Projeto que verifica a sua idade apartir do seu ano de nascimento digitado
   -  CSS
   -  JAVASCRIPT
 
-<p>🔗 Link para acessar o <a href="">site</a></p>
+<p>🔗 Link para acessar o <a href="https://joaovitor2004.github.io/verificador-de-idade/">site</a></p>
