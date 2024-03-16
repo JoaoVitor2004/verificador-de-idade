@@ -1,0 +1,48 @@
+body {
+    background-color: lightsalmon;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+header {
+    color: white;
+    font-weight: bold;
+}
+section {
+    background-color: white;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    border-radius: 25px;
+}
+input {
+    outline: none;
+}
+.genero {
+    margin: 25px 0;
+}
+.botao {
+    background: none;
+    border: 1px solid black;
+    transition: 0.2s ease-in-out;
+    padding: 5px 20px;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 5px;
+}
+.botao:hover {
+    background-color: black;
+    color: white;
+}
+@media (max-width: 450px) {
+    section {
+        width: 70%;
+    }
+
+    section img {
+        max-width: 250px;
+    }
+}

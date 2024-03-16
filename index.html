@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2 js</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section>
+        <label for="ano">Data de nascimento:</label>
+        <input type="number" name="ano" id="ano">
+        <p class="genero">Gênero: 
+            <input type="radio" name="sexo" id="mas" checked>
+            <label for="mas">Masculino</label>
+            <input type="radio" name="sexo" id="fem">
+            <label for="fem">Feminino</label>
+        </p>
+        <p>
+            <input type="button" value="Verificar" class="botao" onclick="verificar()">
+        </p>
+        <div id="res">Resultado</div>
+    </section>
+
+    <script src="index.js"></script>
+</body>
+</html>
